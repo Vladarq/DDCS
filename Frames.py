@@ -10,7 +10,7 @@ class Frame(wx.Frame):
                          size=(600, 400),
                          id=wx.ID_ANY,
                          style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
-        self.SetIcon(wx.Icon('Icon8.ico'))
+        self.SetIcon(wx.Icon('Icon.ico'))
         self.Centre()
         self.detail_selection = None
         self.__doc_selection = None
@@ -474,7 +474,7 @@ class DetFrame(wx.Frame):
                          size=(350, 250),
                          id=wx.ID_ANY,
                          style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
-        self.SetIcon(wx.Icon('Icon8.ico'))
+        self.SetIcon(wx.Icon('Icon.ico'))
         self.Centre()
         panel = wx.Panel(self, id=wx.ID_ANY)
         static_text = wx.StaticText(panel,
@@ -564,7 +564,7 @@ class DocFrame(wx.Frame):
                          size=(500, 350),
                          id=wx.ID_ANY,
                          style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
-        self.SetIcon(wx.Icon('Icon8.ico'))
+        self.SetIcon(wx.Icon('Icon.ico'))
         self.Centre()
         main_panel = wx.Panel(self, id=wx.ID_ANY, pos=(0, 0), size=(500, 350))
         left_panel = wx.Panel(main_panel, id=wx.ID_ANY, pos=(50, 75), size=(150, 110))  # Панель для текстового поля
@@ -756,7 +756,7 @@ class AdminFrame(wx.Frame):
                          size=(450, 380),
                          id=wx.ID_ANY,
                          style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
-        self.SetIcon(wx.Icon('Icon8.ico'))
+        self.SetIcon(wx.Icon('Icon.ico'))
         self.Centre()
         panel = wx.Panel(self, id=wx.ID_ANY)
         left_panel = wx.Panel(panel, id=wx.ID_ANY, pos=(10, 10), size=(180, 350))
