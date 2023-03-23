@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "documentation control system"
+version = "0.1.0"
+description = ""
+authors = ["Vlad_Maximenko <106604188+Vlad2000102@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+wxPython = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
